@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="360dp"
+    android:layout_height="80dp"
+    android:orientation="horizontal"
+    android:layout_gravity="center_horizontal">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/iv_user_rank"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="22dp"
+            android:src="@drawable/img_snowflower" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="14dp"
+            android:layout_marginLeft="104dp"
+            android:layout_marginTop="22dp"
+            android:text="UX 디자인 - "
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/chat_name"
+            android:layout_width="wrap_content"
+            android:layout_height="14dp"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="22dp"
+            android:text="김눈송"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/early"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="104dp"
+            android:layout_marginTop="44dp"
+            android:text="포트폴리오 컨펌 부탁드립니다"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="287dp"
+            android:layout_marginTop="23dp"
+            android:text="13:35"
+            android:textSize="12sp" />
+        <View
+            android:layout_width="328dp"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="80dp"/>
+
+
+    </RelativeLayout>
+</LinearLayout>

@@ -7,7 +7,7 @@ import android.content.Intent
 import android.widget.ImageButton
 import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
-import com.example.sooktoring.Message.ChatActivity
+import com.example.sooktoring.Message.ChatListActivity
 import com.example.sooktoring.databinding.ActivityLoginBinding
 import com.example.sooktoring.databinding.ActivityRegisterBinding
 import com.example.sooktoring.databinding.ActivityRegisterVerifEmailBinding
@@ -100,7 +100,7 @@ class LoginActivity : AppCompatActivity() {
             }
         fun moveMainPage(user: FirebaseUser?) {
             if (user != null) {
-                startActivity(Intent(this, ChatActivity::class.java))
+                startActivity(Intent(this, ChatListActivity::class.java))
             }
         }
 

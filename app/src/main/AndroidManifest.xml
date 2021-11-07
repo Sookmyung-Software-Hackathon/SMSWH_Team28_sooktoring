@@ -48,6 +48,15 @@
         <activity
             android:name=".MainActivity"
             android:exported="true" />
+
+        <activity
+            android:name=".Message.ChatListActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".Message.ChatRoomActivity"
+            android:exported="true" />
+
     </application>
 
 </manifest>

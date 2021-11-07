@@ -8,6 +8,6 @@ class CaDTO (var caname : String? = null,               //동아리 이름
              var cauid : String? = null,                //uid
              var catype : String? = null,               //동아리유형
              var cainNout : String? = null,             //등급
-             var startRecruit : Date? = null,
-             var EndRecruit : Date? = null
+             var startRecruit : String? = null,
+             var EndRecruit : String? = null
 )
